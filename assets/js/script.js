@@ -11,10 +11,4 @@ document.addEventListener("DOMContentLoaded", function () {
   const typed = new Typed(".typing", options);
 });
 
-function updateProgressBar(percent) {
-    const progressBar = document.getElementById("my-progress-bar");
-    progressBar.style.width = percent + "%";
-  }
-  updateProgressBar(96);
-  
 
